@@ -4,7 +4,7 @@ Visual Studio Code support for the Zolang programming language
 
 ## Screenshots
 
-![Zolang in action](https://github.com/Zolang/ZolangIDE/blob/master/images/zolang.png)
+![Zolang in action](https://github.cgom/Zolang/ZolangIDE/blob/master/images/zolang.png)
 
 ## Requirements
 
@@ -16,6 +16,6 @@ Visual Studio Code support for the Zolang programming language
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
 Initial release
