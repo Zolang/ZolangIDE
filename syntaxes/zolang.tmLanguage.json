@@ -29,7 +29,7 @@
 				},
 				{
 					"name": "keyword.statement.zolang",
-					"match": "\\b(and|or|times|over|plus|minus)\\b"
+					"match": "\\b(not|equals|and|or|times|over|plus|minus)\\b"
 				},
 				{
 					"name": "support.type.zolang",
