@@ -4,7 +4,7 @@ Visual Studio Code support for the Zolang programming language
 
 ## Screenshots
 
-\!\[Zolang\]\(images/zolang.png\)
+![Zolang in action](https://github.com/Zolang/ZolangIDE/blob/master/images/zolang.png)
 
 ## Requirements
 
