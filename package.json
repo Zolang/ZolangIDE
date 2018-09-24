@@ -1,0 +1,26 @@
+{
+    "name": "zolang-ide",
+    "displayName": "Zolang IDE",
+    "description": "Language support for the Zolang code generation language",
+    "version": "0.0.1",
+    "publisher": "valdirunars",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "zolang",
+            "aliases": ["Zolang", "zolang"],
+            "extensions": [".zolang",".zo"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "zolang",
+            "scopeName": "source.zolang",
+            "path": "./syntaxes/zolang.tmLanguage.json"
+        }]
+    }
+}
