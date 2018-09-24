@@ -4,6 +4,7 @@
     "description": "Language support for the Zolang code generation language",
     "version": "0.0.1",
     "publisher": "valdirunars",
+    "repository": "https://github.com/Zolang/ZolangIDE",
     "engines": {
         "vscode": "^1.27.0"
     },
