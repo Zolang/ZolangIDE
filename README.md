@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/Zolang/Zolang">Zolang</a> &bull;
     <a href="https://github.com/Zolang/ZolangTemplates">ZolangTemplates</a>
-  <b> ZolangIDE </b>
+  <b> Zolang IDE </b>
 </p>
 
-# ZolangIDE (zolang-ide)
+# Zolang IDE (zolang-ide)
 
 Visual Studio Code support for the Zolang programming language
 
