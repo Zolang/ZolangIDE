@@ -2,7 +2,7 @@
     "name": "zolang-ide",
     "displayName": "Zolang IDE",
     "description": "Language support for the Zolang code generation language",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "valdirunars",
     "repository": "https://github.com/Zolang/ZolangIDE",
     "engines": {
