@@ -33,3 +33,7 @@ Minor fixes
 ### 0.0.3
 
 Fixed highlighting for operators
+
+### 0.0.4
+
+Zolang v0.0.8 highlighting

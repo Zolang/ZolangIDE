@@ -4,6 +4,9 @@
 	"scopeName": "source.zolang",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -17,11 +20,31 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.zolang",
+					"begin": "\\#",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.zolang"
+						}
+					},
+					"end": "\\n",
+					"patterns": [
+						{
+							"name": "punctuation.separator.continuation.zolang",
+							"match": "(?>\\\\\\s*\\n)"
+						}
+					]
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
 					"name": "keyword.control.zolang",
-					"match": "\\b(return|else|if|while|describe|as|be|from|let|make)\\b"
+					"match": "\\b(static|private|default|return|else|if|while|describe|as|be|from|let|make)\\b"
 				},
 				{
 					"name": "constant.language.zolang",
