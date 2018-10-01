@@ -52,7 +52,7 @@
 				},
 				{
 					"name": "keyword.statement.zolang",
-					"match": "\\b(not|equals|and|or|times|over|plus|minus)\\b"
+					"match": "\\b(not|equals|and|or|times|over|plus|minus|divided\\sby|modulus)\\b"
 				},
 				{
 					"name": "support.type.zolang",
