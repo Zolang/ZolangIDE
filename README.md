@@ -40,4 +40,4 @@ Zolang v0.0.8 highlighting
 
 ### 0.0.5
 
-Highlighting for new operators "modulus" and "divided by" 
+Highlighting for new operators "modulus", "multiplied by" and "divided by" 
