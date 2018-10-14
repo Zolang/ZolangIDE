@@ -56,7 +56,7 @@
 				},
 				{
 					"name": "support.type.zolang",
-					"match": "\\b(list|of|text|number|boolean)\\b"
+					"match": "\\b(list|dictionary|of|text|number|boolean)\\b"
 				}
 			]
 		},
