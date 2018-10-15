@@ -44,4 +44,8 @@ Highlighting for new operators "modulus", "multiplied by" and "divided by"
 
 ### 0.0.6
 
-Add highlighting for dictionary type
+Add highlighting for "dictionary" type
+
+### 0.0.7
+
+Add highlighting for "only" and "raw"

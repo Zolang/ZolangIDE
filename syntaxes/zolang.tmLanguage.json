@@ -10,7 +10,7 @@
 			"include": "#keywords"
 		},
 		{
-			"include": "#strings"
+			"include": "#raw"
 		},
 		{
 			"include": "#literal"
@@ -23,7 +23,7 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.line.double-slash.zolang",
+					"name": "comment.line.hashtag.zolang",
 					"begin": "\\#",
 					"beginCaptures": {
 						"0": {
@@ -44,7 +44,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.zolang",
-					"match": "\\b(static|private|default|return|else|if|while|describe|as|be|from|let|make)\\b"
+					"match": "\\b(static|private|default|return|else|if|while|describe|as|be|from|let|make|raw|only)\\b"
 				},
 				{
 					"name": "constant.language.zolang",
@@ -52,7 +52,7 @@
 				},
 				{
 					"name": "keyword.statement.zolang",
-					"match": "\\b(not|equals|and|or|times|over|plus|minus|divided\\sby|multiplied\\sby|modulus)\\b"
+					"match": "\\b(not|equals|and|or|times|over|plus|minus|divided\\s+by|multiplied\\sby|modulus)\\b"
 				},
 				{
 					"name": "support.type.zolang",
@@ -125,6 +125,22 @@
 					"include": "#escaped-char"
 				}
 			]
+		},
+		"raw": {
+			"name": "string.quoted.double.zolang",
+			"begin": "\\{\\'",
+			"end": "\\'\\}",
+			"beginCaptures": {
+				"0": {
+					"name": "keyword.statement.zolang"
+				}
+			},
+			"endCaptures": {
+				"0": {
+					"name": "keyword.statement.zolang"
+				}
+			},
+			"patterns": []
 		},
 		"literal-string": {
 			"name": "string.quoted.double.zolang",
